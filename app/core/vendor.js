@@ -1,6 +1,6 @@
 module.exports = function () {
     /* JS */
-    window.jQuery = window.$ = require('../../node_modules/jquery/dist/jquery.min');
+    window.jQuery = window.$ = require('../../node_modules/jquery/dist/jquery');
     require('jquery');
     require('bootstrap');
     require('angular');
