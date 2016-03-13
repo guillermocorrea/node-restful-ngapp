@@ -1,7 +1,8 @@
 'use strict';
+var path = require('path');
 
 module.exports = {
-    context: __dirname + '/app',
+    context: path.join(__dirname, 'app'),
     entry: {
         app: ['webpack/hot/dev-server', './core/bootstrap.js']
     },
